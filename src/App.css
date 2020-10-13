@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,49 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.calculator-container {
+  text-align: left;
+  margin: 15px auto;
+  padding: 15px;
+  background: #ddd;
+  width: 40%;
+  min-width: 200px;
+}
+
+.calculator-container form {
+  margin-top: 15px;
+}
+
+.calculator-container form .number-input {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.calculator-container .description {
+  font-style: italic;
+}
+
+.calculator-container .description ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.calculator-container .description ul li {
+  margin-left: 5px;
+}
+
+footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  font-style: italic;
+  color: white;
 }
 
 @keyframes App-logo-spin {
