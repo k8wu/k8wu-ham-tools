@@ -90,13 +90,13 @@ class VIR extends React.Component {
       <>
         <h2>Voltage, Current, and Resistance</h2>
         <form className="form" name="vir-form" onSubmit={this.handleSubmit}>
-          <label>Voltage in volts (V):</label>
+          <label>Voltage: </label>
           <input className="number-input" name="voltage" type="text" value={this.state.voltage} onChange={this.handleInputChange} />
           <br />
-          <label>Current in amperes (I):</label>
+          <label>Current: </label>
           <input className="number-input" name="current" type="text" value={this.state.current} onChange={this.handleInputChange} />
           <br />
-          <label>Resistance in ohms (R):</label>
+          <label>Resistance: </label>
           <input className="number-input" name="resistance" type="text" value={this.state.resistance} onChange={this.handleInputChange} />
           <br />
           <input type="submit" value="submit" />
@@ -203,13 +203,13 @@ class PIV extends React.Component {
       <>
         <h2>Power, Current, and Voltage</h2>
         <form className="form" name="piv-form" onSubmit={this.handleSubmit}>
-          <label>Power:</label>
+          <label>Power: </label>
           <input className="number-input" name="power" type="text" value={this.state.power} onChange={this.handleInputChange} />
           <br />
-          <label>Current:</label>
+          <label>Current: </label>
           <input className="number-input" name="current" type="text" value={this.state.current} onChange={this.handleInputChange} />
           <br />
-          <label>Voltage:</label>
+          <label>Voltage: </label>
           <input className="number-input" name="voltage" type="text" value={this.state.voltage} onChange={this.handleInputChange} />
           <br />
           <input type="submit" value="submit" />
